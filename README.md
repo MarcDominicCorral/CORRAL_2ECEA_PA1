@@ -68,7 +68,7 @@ def unpack_list_slicing(input):
     unpack_list_slicing(input = [1,2,3,4,5,6])
 ```
 
-# Output 
+# Output:
 <img width="562" height="65" alt="image" src="https://github.com/user-attachments/assets/459e2df1-b397-4b6b-9f1b-0e0a1fb8683a" />
 
 # Code Explanation:
