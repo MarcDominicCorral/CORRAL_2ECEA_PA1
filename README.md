@@ -9,7 +9,7 @@ This Programming Assignment contains Python Code solution to Alphabet Soup, Emot
 This Python Code creates a function that arrange the letters of a given word to be in alphabetical order.
 
 # Steps:
-1.) Set up the function using def function()
+1.) Set up the function using "def function()".
 ```python
 def alphabet_soup(string) #It is the function that takes the string and rearranges it alphabetically.
 ```
@@ -33,7 +33,7 @@ def alphabet_soup(string):
 This Python Code creates a function that changes a specific word into an emoticon within the given phrase.
 
 # Steps:
-1.) Assign a function using def function()
+1.) Assign a function using "def function()".
 ```python
 def emotify(string) #It is the function that will be used to replace certain strings with emoticons.
 ```
@@ -45,7 +45,7 @@ emoticons ={} #It is a dictionary function that set a certain string into an emo
 ```python
 for word, emoticon in emoticons.items() #It is a for loop that iterates every item in the emoticons dictionary.
 ```
-4.) Use the command .replace() to change the word into emoticons.
+4.) Use the command ".replace()" to change the word into emoticons.
 ```python
 string = string.replace(word, emoticon) #It replaces the words in the input with their respective set of emoticons.
 ```
@@ -70,11 +70,11 @@ def emotify(string)
 This Python Code unpacks a given list into its first, middle, and last segments then prints all three variables.
 
 # Steps:
-1.) Create the function using def function()
+1.) Create the function using "def function()".
 ```python
 def unpack_list_slicing(input): #It is the function where the unpacking is made.
 ```
-2.) Using input[], we will get each element of the input, using indexes to get a certain value.
+2.) Using "input[]", we will get each element of the input, using indexes to get a certain value.
 ```python
 first = input[0] #It gets the first element.
 middle = input[1:-1] #It gets the elements between the first and the last.
